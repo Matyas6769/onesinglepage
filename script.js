@@ -9,6 +9,17 @@ if (year) {
   year.textContent = String(new Date().getFullYear());
 }
 
+const validationPageUrl = window.location.href;
+const htmlValidatorUrl = new URL("https://validator.w3.org/nu/");
+htmlValidatorUrl.searchParams.set("doc", validationPageUrl);
+const cssValidatorUrl = new URL("https://jigsaw.w3.org/css-validator/validator");
+cssValidatorUrl.searchParams.set("uri", new URL("styles.css", validationPageUrl).href);
+cssValidatorUrl.searchParams.set("profile", "css3");
+cssValidatorUrl.searchParams.set("usermedium", "all");
+
+document.querySelector('[data-validator="html"]')?.setAttribute("href", htmlValidatorUrl.href);
+document.querySelector('[data-validator="css"]')?.setAttribute("href", cssValidatorUrl.href);
+
 const setHeaderState = () => {
   header?.classList.toggle("is-scrolled", window.scrollY > 24);
 };
