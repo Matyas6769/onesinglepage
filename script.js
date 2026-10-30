@@ -9,7 +9,7 @@ if (year) {
   year.textContent = String(new Date().getFullYear());
 }
 
-const validationPageUrl = window.location.href;
+const validationPageUrl = "https://matyas6769.github.io/onesinglepage/";
 const htmlValidatorUrl = new URL("https://validator.w3.org/nu/");
 htmlValidatorUrl.searchParams.set("doc", validationPageUrl);
 const cssValidatorUrl = new URL("https://jigsaw.w3.org/css-validator/validator");
