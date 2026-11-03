@@ -83,9 +83,9 @@ a:focus-visible {
 }
 
 .wordmark__brand {
-  font-size: 14px;
-  font-weight: 800;
-  letter-spacing: 0.24em;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
 }
 
 .wordmark__model {
@@ -177,6 +177,17 @@ a:focus-visible {
   width: min(680px, 75vw);
   margin: 80px 0 0 var(--page-gutter);
   animation: content-arrive 800ms 160ms ease-out both;
+}
+
+.independent-project-note {
+  max-width: 580px;
+  margin: 0 0 24px;
+  padding: 11px 14px;
+  border-left: 2px solid #9aabc2;
+  background: rgba(12, 12, 11, 0.72);
+  color: #fff;
+  font-size: 11px;
+  line-height: 1.6;
 }
 
 .eyebrow {
@@ -702,7 +713,7 @@ h2 em {
   }
 
   .wordmark__brand {
-    font-size: 12px;
+    font-size: 9px;
   }
 
   .menu-toggle {
@@ -801,6 +812,12 @@ h2 em {
   .hero .eyebrow {
     margin-bottom: 17px;
     font-size: 9px;
+  }
+
+  .independent-project-note {
+    margin-bottom: 20px;
+    padding: 9px 11px;
+    font-size: 10px;
   }
 
   .hero h1 {

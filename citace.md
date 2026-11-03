@@ -20,6 +20,7 @@ Následující body věcně shrnují zadání předaná AI při tvorbě projektu
 5. Opravit fotografie čtyř barev karoserie tak, aby každá barva měla vlastní odpovídající snímek; zachovat ostatní konfigurátor.
 6. Doplnit samostatné fotografie pro obě varianty kol, oba interiéry a tři položky výbavy; při výběru okamžitě aktualizovat náhled a zachovat výpočet ceny i funkčnost barev.
 7. Doplnit do patičky odkazy na validaci HTML a CSS a citace zdrojů včetně použitých zadání, modelu AI a výstupů.
+8. Prověřit upozornění na phishing, odstranit zavádějící dojem oficiálního webu Porsche, zřetelně uvést neoficiální studentský účel a zaznamenat nápravu do citací bez obcházení bezpečnostních kontrol.
 
 ## Zdroje fotografií a informací
 
@@ -35,6 +36,7 @@ Následující body věcně shrnují zadání předaná AI při tvorbě projektu
 - Vizuální styl, responzivní úpravy a interakce v `styles.css`.
 - Navigace, animace při posunu, volby konfigurátoru, souhrn a výpočet orientační ceny v `script.js`.
 - Popisky náhledů, metadata a tato dokumentace citací.
+- Výrazné upozornění na neoficiální studentský projekt, upřesnění odkazu na oficiální informace Porsche a úprava názvu stránky, aby nedocházelo k záměně s webem Porsche AG.
 
 ## Umístění citací
 
