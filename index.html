@@ -4,15 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#111110">
-  <meta name="description" content="Neoficiální studentská prezentace Porsche 911 GT3 RS. Nejde o web Porsche AG, prodejní stránku ani oficiální konfigurátor.">
-  <title>Neoficiální studentský projekt | Porsche 911 GT3 RS</title>
+  <meta name="description" content="Školní informační projekt o Porsche 911 GT3 RS. Nejde o web Porsche AG, prodejní stránku ani oficiální konfigurátor.">
+  <title>Školní projekt: přehled Porsche 911 GT3 RS</title>
   <link rel="preconnect" href="https://a.storyblok.com">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
 <body>
   <header class="site-header" id="top">
-    <a class="wordmark" href="#top" aria-label="Porsche 911 GT3 RS — úvod">
+    <a class="wordmark" href="#top" aria-label="Studentský projekt o Porsche 911 GT3 RS — úvod">
       <span class="wordmark__brand">STUDENTSKÝ PROJEKT</span>
       <span class="wordmark__model">911 GT3 RS</span>
     </a>
@@ -23,11 +23,11 @@
     </button>
 
     <nav class="site-nav" id="primary-navigation" aria-label="Hlavní navigace">
-      <a href="#about">O voze</a>
+      <a href="#about">Přehled</a>
       <a href="#performance">Výkon</a>
       <a href="#design">Design</a>
-      <a href="#configurator">Konfigurátor</a>
-      <a class="site-nav__cta" href="#performance">Objevte vůz <span aria-hidden="true">↗</span></a>
+      <a href="#configurator">Ukázkový výběr</a>
+      <a class="site-nav__cta" href="#about">Informace o projektu <span aria-hidden="true">↗</span></a>
     </nav>
   </header>
 
@@ -41,14 +41,14 @@
       >
       <div class="hero__shade"></div>
       <div class="hero__content">
-        <p class="independent-project-note">Neoficiální studentský projekt. Není spojen s Porsche AG, nenabízí prodej vozů a nesbírá osobní ani platební údaje.</p>
-        <p class="eyebrow"><span class="eyebrow__line"></span> Ikona stvořená pro okruh</p>
+        <p class="independent-project-note">Školní informační ukázka, nikoli web Porsche AG ani nabídka vozů. Projekt nepřijímá objednávky a nesbírá osobní ani platební údaje. Fotografie se načítají z externí CDN, která může zpracovat běžná provozní data.</p>
+        <p class="eyebrow"><span class="eyebrow__line"></span> Nezávislá studentská prezentace</p>
         <h1 id="hero-title">911 GT3 RS</h1>
-        <p class="hero__tagline">Zrozené pro okruh.<br>Stvořené pro emoce.</p>
-        <a class="button button--light" href="#about">Objevte více <span aria-hidden="true">↓</span></a>
+        <p class="hero__tagline">Studijní přehled modelu<br>a jeho technických parametrů.</p>
+        <a class="button button--light" href="#about">Prohlédnout projekt <span aria-hidden="true">↓</span></a>
       </div>
       <div class="hero__index" aria-hidden="true"><span>01</span> / 03</div>
-      <a class="hero__scroll" href="#about"><span></span> Scrollujte dolů</a>
+      <a class="hero__scroll" href="#about"><span></span> Přejít k přehledu</a>
     </section>
 
     <section class="about section-wrap" id="about" aria-labelledby="about-title">
@@ -131,10 +131,10 @@
       <div class="configurator__inner section-wrap">
         <div class="configurator__heading reveal">
           <div>
-            <p class="eyebrow"><span class="eyebrow__line"></span> 04 / Váš vůz</p>
-            <h2 id="configurator-title">Sestavte si<br><em>svůj GT3 RS.</em></h2>
+            <p class="eyebrow"><span class="eyebrow__line"></span> 04 / Školní ukázka</p>
+            <h2 id="configurator-title">Demonstrační<br><em>výběr výbavy.</em></h2>
           </div>
-          <button class="configurator__reset" type="button" id="reset-configuration">Reset Configuration <span aria-hidden="true">↺</span></button>
+          <button class="configurator__reset" type="button" id="reset-configuration">Obnovit výchozí ukázku <span aria-hidden="true">↺</span></button>
         </div>
 
         <div class="configurator__layout">
@@ -207,7 +207,7 @@
           <aside class="config-summary reveal" aria-label="Souhrn konfigurace">
             <div class="config-summary__image">
               <img src="images/configurator/colors/ice-grey.webp" alt="Porsche 911 GT3 RS v barvě Ice Grey Metallic, boční pohled na okruhu" decoding="async" id="configuration-image">
-              <span class="config-summary__badge"><span class="config-summary__dot"></span> Vaše konfigurace</span>
+              <span class="config-summary__badge"><span class="config-summary__dot"></span> Demonstrační výběr</span>
             </div>
             <p class="config-summary__photo-note" id="configuration-photo-note">Referenční fotografie Porsche 911 GT3 RS · Ice Grey Metallic</p>
             <div class="configurator__previews" role="group" aria-label="Ilustrační detaily konfigurace">
@@ -234,26 +234,26 @@
                 <p class="config-summary__extras" id="summary-extras-row" hidden><span>Výbava</span><strong id="summary-extras"></strong></p>
               </div>
               <div class="config-summary__price">
-                <p><span>Základní cena*</span><strong id="base-price">6 590 000 Kč</strong></p>
+                <p><span>Ukázková základní hodnota*</span><strong id="base-price">6 590 000 Kč</strong></p>
                 <p><span>Výbava a příplatky</span><strong id="options-price">0 Kč</strong></p>
-                <p class="config-summary__total"><span>Celková cena*</span><strong id="total-price" aria-live="polite">6 590 000 Kč</strong></p>
+                <p class="config-summary__total"><span>Ukázkový součet*</span><strong id="total-price" aria-live="polite">6 590 000 Kč</strong></p>
               </div>
               <a class="config-summary__official" href="https://www.porsche.com/international/models/911/911-gt3-rs/911-gt3-rs/" target="_blank" rel="noopener noreferrer">Oficiální informace na Porsche.com <span aria-hidden="true">↗</span></a>
             </div>
           </aside>
         </div>
-        <p class="configurator__disclaimer">* Orientační demonstrační ceny v Kč, nikoli oficiální česká nabídka Porsche. Veřejný zdroj Porsche uvádí technické parametry, nikoli aktuální český ceník konfigurace. Dostupnost výbavy a konečnou cenu ověřte u autorizovaného prodejce.</p>
+        <p class="configurator__disclaimer">* Čistě demonstrační hodnoty pro školní projekt, nikoli ceny Porsche ani nabídka k prodeji. Tato ukázka neodesílá objednávky. Oficiální technické údaje a informace o nabídce najdete na webu Porsche.</p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <a class="wordmark wordmark--footer" href="#top" aria-label="Porsche 911 GT3 RS — zpět nahoru">
+    <a class="wordmark wordmark--footer" href="#top" aria-label="Studentský projekt o Porsche 911 GT3 RS — zpět nahoru">
       <span class="wordmark__brand">STUDENTSKÝ PROJEKT</span>
       <span class="wordmark__model">911 GT3 RS</span>
     </a>
-    <p class="site-footer__note">Zrozené pro okruh. Stvořené pro emoce.</p>
-    <p class="site-footer__copyright">© <span id="current-year">2026</span> Porsche 911 GT3 RS · Neoficiální prezentační stránka</p>
+    <p class="site-footer__note">Nezávislá školní práce · bez spojení s Porsche AG</p>
+    <p class="site-footer__copyright"><span id="current-year">2026</span> · Studentská informační prezentace · Bez prodeje a objednávek</p>
     <nav class="site-footer__links" aria-label="Validace a zdroje">
       <a class="site-footer__link" data-validator="html" href="https://validator.w3.org/nu/" target="_blank" rel="noopener noreferrer" aria-label="Ověřit HTML této stránky na W3C validatoru">
         <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M6 3.75h8l4 4v12.5H6zM14 3.75v4h4M8.5 12l2 2 4.5-4.5M8.5 18h7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>

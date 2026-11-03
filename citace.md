@@ -21,6 +21,13 @@ Následující body věcně shrnují zadání předaná AI při tvorbě projektu
 6. Doplnit samostatné fotografie pro obě varianty kol, oba interiéry a tři položky výbavy; při výběru okamžitě aktualizovat náhled a zachovat výpočet ceny i funkčnost barev.
 7. Doplnit do patičky odkazy na validaci HTML a CSS a citace zdrojů včetně použitých zadání, modelu AI a výstupů.
 8. Prověřit upozornění na phishing, odstranit zavádějící dojem oficiálního webu Porsche, zřetelně uvést neoficiální studentský účel a zaznamenat nápravu do citací bez obcházení bezpečnostních kontrol.
+9. Zpřesnit nekomerční a školní charakter stránky, odlišit demonstrační výběr výbavy od oficiálního konfigurátoru a transparentně uvést načítání fotografií z externí CDN.
+
+## Záznam o úpravě upozornění na phishing
+
+- **Datum:** 3. 11. 2026.
+- **Provedené změny:** upraveny název stránky, její popis, navigace, hlavní sdělení a patička tak, aby jasně označovaly školní projekt bez spojení s Porsche AG; výběr výbavy i zobrazené částky jsou výslovně označeny jako demonstrační, bez prodeje či odesílání objednávek. Upozornění informuje také o externí CDN fotografií a možném zpracování běžných provozních dat.
+- **Rozsah:** změny odstraňují matoucí komerční formulace; nepředstavují potvrzení bezpečnostního skeneru ani automatické odstranění případného varování. Případné přehodnocení označení je nutné požádat u provozovatele příslušné bezpečnostní služby.
 
 ## Zdroje fotografií a informací
 
